@@ -1,0 +1,40 @@
+[tool.poetry]
+name = "trademaster"
+version = "0.1.0"
+description = "A proactive AI-powered Discord bot for trading communities"
+authors = ["Your Name <your.email@example.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+"discord.py" = "^2.3.1"
+transformers = "^4.36.0"
+torch = "^2.1.0"
+numpy = "^1.24.3"
+requests = "^2.31.0"
+python-dotenv = "^1.0.0"
+aiohttp = "^3.8.6"
+vaderSentiment = "^3.3.2"
+tweepy = "^4.14.0"
+praw = "^7.7.1"
+pandas = "^2.1.1"
+sqlalchemy = "^2.0.23"
+openai = "^1.8.0"    # For Groq API (compatible with OpenAI-style APIs)
+asyncio = "^3.4.3"   # For asynchronous operations
+beautifulsoup4 = "^4.12.2"  # For web scraping (bs4)
+langchain-core = "^0.3.41"
+langchain-community = "^0.3.19"
+langgraph = "^0.3.5"
+
+[tool.poetry.group.dev]
+optional = true
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^7.4.0"
+black = "^23.7.0"
+flake8 = "^6.1.0"
+mypy = "^1.5.1"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"

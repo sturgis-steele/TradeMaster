@@ -1,0 +1,67 @@
+trademaster/
+├── __init__.py                     # Makes trademaster a proper package
+├── main.py                         # Entry point
+│
+├── bot/                            # Discord bot functionality
+│   ├── __init__.py
+│   ├── client.py                   # Discord client implementation
+│   ├── commands.py                 # Bot command handlers
+│   └── events.py                   # Event handlers (message, reaction, etc.)
+│
+├── core/                           # Core application functionality
+│   ├── __init__.py
+│   ├── router.py                   # Message routing and intent detection
+│   ├── memory.py                   # User memory system
+│   └── llm.py                      # LLM integration
+│
+├── tools/                          # Specialized tools
+│   ├── __init__.py
+│   ├── wallet/                     # Wallet tracking
+│   │   ├── __init__.py
+│   │   ├── tracker.py              # Wallet tracking functionality
+│   │   └── apis.py                 # Blockchain API integrations
+│   ├── market/                     # Market analysis
+│   │   ├── __init__.py
+│   │   ├── analyzer.py             # Market trend analysis
+│   │   ├── price.py                # Price data fetching
+│   │   └── sentiment.py            # Sentiment analysis
+│   ├── trading/                    # Trading tools
+│   │   ├── __init__.py
+│   │   └── critic.py               # Trade critique functionality
+│   └── conversation/               # Conversational tools
+│       ├── __init__.py
+│       └── assistant.py            # General conversation functionality
+│
+├── utils/                          # Utility functions
+│   ├── __init__.py
+│   ├── database.py                 # Database interface
+│   ├── web_operator.py             # Web browsing operator
+│   ├── logging.py                  # Logging configuration
+│   └── config.py                   # Configuration loading/management
+│
+├── data/                           # Data storage
+│   ├── .gitignore                  # Ignore DB files and logs
+│   ├── schema/                     # Database schema definitions
+│   │   └── init.sql                # Initial database setup
+│   └── knowledge/                  # Knowledge data
+│       └── trading_terms.json      # Trading terminology
+│
+├── config/                         # Configuration
+│   ├── .env.sample                 # Sample environment variables
+│   └── logging_config.yaml         # Logging configuration
+│
+├── tests/                          # Unit and integration tests
+│   ├── __init__.py
+│   ├── test_router.py
+│   ├── test_wallet.py
+│   └── test_memory.py
+│
+├── scripts/                        # Utility scripts
+│   ├── setup.sh                    # Setup script for Linux/Mac
+│   └── setup.bat                   # Setup script for Windows
+│
+├── Dockerfile                      # Docker configuration
+├── docker-compose.yml              # Docker Compose configuration
+├── pyproject.toml                  # Poetry configuration
+├── requirements.txt                # Pip dependencies
+└── README.md                       # Project documentation

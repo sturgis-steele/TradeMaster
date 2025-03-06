@@ -1,0 +1,65 @@
+{
+
+  "terminology": {
+    "bull market": "A market characterized by rising prices and optimism.",
+    "bear market": "A market characterized by falling prices and pessimism.",
+    "leverage": "Using borrowed funds to increase the potential return of an investment.",
+    "long": "Buying an asset with the expectation that it will increase in value.",
+    "short": "Selling an asset with the expectation that it will decrease in value.",
+    "support": "A price level where an asset tends to stop falling.",
+    "resistance": "A price level where an asset tends to stop rising.",
+    "liquidation": "Forced closure of a position due to insufficient margin.",
+    "margin": "Borrowed funds used to leverage trading positions.",
+    "order book": "A list of buy and sell orders for an asset, organized by price.",
+    "slippage": "The difference between expected price and execution price.",
+    "market cap": "Total value of an asset, calculated as price × circulating supply.",
+    "candlestick": "A chart representation showing open, high, low, and close prices.",
+    "volume": "The amount of an asset traded in a given period.",
+    "rsi": "Relative Strength Index - a momentum oscillator measuring speed and change of price movements.",
+    "macd": "Moving Average Convergence Divergence - a trend-following momentum indicator.",
+    "fibonacci": "Retracement levels based on the Fibonacci sequence, used to identify potential support/resistance.",
+    "whale": "An entity holding a large amount of cryptocurrency or making large trades.",
+    "fud": "Fear, Uncertainty, and Doubt - negative information that causes market panic.",
+    "fomo": "Fear Of Missing Out - buying due to fear of missing potential gains.",
+    "dyor": "Do Your Own Research - encouragement to research before investing.",
+    "hodl": "Hold On for Dear Life - strategy of holding assets despite market volatility.",
+    "dca": "Dollar Cost Averaging - investing fixed amounts at regular intervals.",
+    "amm": "Automated Market Maker - a type of decentralized exchange protocol.",
+    "dex": "Decentralized Exchange - a cryptocurrency exchange without a central authority.",
+    "cex": "Centralized Exchange - a traditional exchange with a central authority.",
+    "yield farming": "Lending or staking crypto assets to generate returns.",
+    "staking": "Locking up crypto to support network operations and earn rewards.",
+    "nft": "Non-Fungible Token - a unique digital asset with verified ownership.",
+    "gas fee": "Transaction fee on blockchain networks like Ethereum.",
+    "apy": "Annual Percentage Yield - the real rate of return factoring in compounding.",
+    "apr": "Annual Percentage Rate - the simple interest rate without compounding."
+  },
+  "concepts": {
+    "technical_analysis": {
+      "support_resistance": "Support and resistance are price levels where an asset historically struggles to fall below (support) or rise above (resistance). These levels form due to market psychology and can be used to identify potential entry and exit points.",
+      "moving_averages": "Moving averages smooth out price data to create a single flowing line, making it easier to identify the direction of the trend. The two main types are Simple Moving Average (SMA) and Exponential Moving Average (EMA), with the latter giving more weight to recent prices.",
+      "rsi": "The Relative Strength Index (RSI) is a momentum oscillator that measures the speed and change of price movements on a scale from 0 to 100. Traditional interpretation is that RSI values above 70 indicate overbought conditions while values below 30 indicate oversold conditions.",
+      "macd": "The Moving Average Convergence Divergence (MACD) is a trend-following momentum indicator that shows the relationship between two moving averages of an asset's price. The MACD is calculated by subtracting the 26-period EMA from the 12-period EMA. A nine-day EMA of the MACD, called the 'signal line', is then plotted on top of the MACD, functioning as a trigger for buy and sell signals."
+    },
+    "market_psychology": {
+      "fear_greed": "The Fear and Greed Index measures market sentiment on a scale from extreme fear to extreme greed. It's based on the premise that excessive fear tends to drive prices lower than they should be, while excessive greed tends to drive prices higher than they should be.",
+      "market_cycles": "Markets typically move in cycles characterized by accumulation, uptrend (markup), distribution, and downtrend (markdown) phases. Understanding these cycles can help traders position themselves appropriately for each phase.",
+      "contrarian_approach": "A contrarian trading approach involves going against prevailing market trends or sentiment, based on the belief that the crowd is usually wrong at market extremes. This might involve buying when others are fearful or selling when others are greedy."
+    },
+    "risk_management": {
+      "position_sizing": "Position sizing refers to determining the appropriate amount of capital to risk on a single trade. A common guideline is to risk no more than 1-2% of your total trading capital on any single position.",
+      "stop_loss": "A stop-loss order is designed to limit an investor's potential loss on a position. It automatically exits the position when the price reaches a predetermined level, helping to manage risk and prevent emotional decision-making.",
+      "risk_reward": "The risk-reward ratio compares the potential profit of a trade to its potential loss. A general guideline is to aim for trades with a risk-reward ratio of at least 1:2, meaning the potential reward is at least twice the potential risk."
+    },
+    "trading_strategies": {
+      "trend_following": "Trend following strategies aim to capture gains by riding the momentum of an existing trend. These strategies typically use indicators like moving averages to identify and follow the direction of the market trend.",
+      "breakout": "Breakout trading involves entering positions when the price breaks through a significant support or resistance level with increased volume. The idea is that once a breakout occurs, there will be enough momentum to continue the price movement in the breakout direction.",
+      "mean_reversion": "Mean reversion strategies are based on the idea that prices and returns eventually move back toward their historical average or mean. These strategies involve buying assets when their prices are much lower than their historical averages and selling when they're much higher."
+    },
+    "crypto_specific": {
+      "blockchain_basics": "A blockchain is a distributed ledger technology that records transactions across many computers in a way that ensures no single record can be altered retroactively. This technology underpins cryptocurrencies like Bitcoin and Ethereum.",
+      "defi": "Decentralized Finance (DeFi) refers to financial services and applications built on blockchain technology that operate without central authorities like banks. DeFi applications include lending platforms, decentralized exchanges, and yield farming protocols.",
+      "tokenomics": "Tokenomics refers to the economic model of a cryptocurrency or token. It includes factors such as the token's utility, supply mechanisms (inflation or deflation), distribution, and incentive structures. Understanding tokenomics is crucial for evaluating the long-term potential of a crypto asset."
+    }
+  }
+}
